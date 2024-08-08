@@ -23,13 +23,49 @@
     ></script>
     <script src="./assets/maugallery.js"></script>
     <script src="./assets/scripts.js"></script>
-    <title>
-      Site web de présentation de la Photographe professionnel freelance Ninca
-      Carducci ainsi que son portfolio
-    </title>
+    <title>Nina Carducci Professionnal Photographer</title>
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Nina Carducci Photography",
+        "image": "assets/images/photo-portrait-nina-carducci.avif",
+        "@id": "http://127.0.0.1:5500/index.html",
+        "url": "http://127.0.0.1:5500/index.html",
+        "telephone": "+33556677889",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "68 avenue Alsace-Lorraine",
+          "addressLocality": "Bordeaux",
+          "postalCode": "33200",
+          "addressCountry": "FR"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": 44.8378,
+          "longitude": -0.5792
+        },
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": [
+              "Monday",
+              "Tuesday",
+              "Wednesday",
+              "Thursday",
+              "Friday"
+            ],
+            "opens": "10:00",
+            "closes": "19:00"
+          }
+        ],
+        "sameAs": ["https://www.instagram.com/ninacarducci.photo/?hl=fr"],
+        "description": "Nina Carducci, photographe professionnelle freelance, offre des services de photographie pour les portraits, mariages, et événements d'entreprise en Île-de-France."
+      }
+    </script>
   </head>
   <body>
-    <div class="top-header">
+    <header class="top-header">
       <h1 class="name">Nina Carducci</h1>
       <div class="nav">
         <ul>
@@ -49,9 +85,9 @@
           </li>
         </ul>
       </div>
-    </div>
-    <div id="header">
-      <div
+    </header>
+    <main id="header">
+      <section
         id="carouselExampleIndicators"
         class="carousel slide"
         data-bs-ride="carousel"
@@ -81,23 +117,23 @@
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img
-              src="./assets/images/slider/Ryoji-iwata-professional-photo-street-urban.jpg"
+              src="./assets/images/slider/Ryoji-iwata-professional-photo-street-urban.avif"
               class="d-block w-100"
-              alt="Photo professionnel de Ryoji Iwata d'un homme d'affaire marchant sur un passage clouté alterné de bandes blanche & noir en perspective"
+              alt="Photo professionnel de Ryoji Iwata homme passage clouté rue en perspective"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/images/slider/Nicholas-green-professional-photo-concert.jpg"
+              src="./assets/images/slider/Nicholas-green-professional-photo-concert.avif"
               class="d-block w-100"
-              alt="Photo professionnel de Nicholas Green d'un groupe de jeunes hommes & femmes prise de face a un concert"
+              alt="Photo professionnel de Nicholas Green homme & femme pris en photo en concert"
             />
           </div>
           <div class="carousel-item">
             <img
-              src="./assets/images/slider/Edward-cisneros-professional-photo-wedding.jpg"
+              src="./assets/images/slider/Edward-cisneros-professional-photo-wedding.avif"
               class="d-block w-100"
-              alt="Photo professionnel de Edward Cisneros d'un marriage ou l'homme embrasse sa femme avec passion en la penchant"
+              alt="Photo professionnel de Edward Cisneros baiser fougueux d'un couple en lune de miel"
             />
           </div>
         </div>
@@ -107,7 +143,7 @@
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="prev"
         >
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="carousel-control-prev-icon"></span>
           <span class="visually-hidden">Previous</span>
         </button>
         <button
@@ -116,15 +152,15 @@
           data-bs-target="#carouselExampleIndicators"
           data-bs-slide="next"
         >
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="carousel-control-next-icon"></span>
           <span class="visually-hidden">Next</span>
         </button>
-      </div>
-    </div>
-    <div id="about">
+      </section>
+    </main>
+    <section id="about">
       <div class="picture left">
         <img
-          src="./assets/images/photo-portrait-nina-carducci.png"
+          src="./assets/images/photo-portrait-nina-carducci.avif"
           alt="Photo de Nina Carducci"
         />
       </div>
@@ -146,64 +182,64 @@
           lumière à chaque fois que vous poserez les yeux sur vos photos.
         </p>
       </div>
-    </div>
-    <div id="gallery">
+    </section>
+    <section id="gallery">
       <h3 class="title">Portfolio</h3>
       <div class="container py-3">
         <div class="gallery" style="display: none">
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/Aaron-paul-professional-photographer-concert.jpg"
+            src="./assets/images/gallery/concerts/Aaron-paul-professional-photographer-concert.avif"
             alt="Photo professionnel de Aaron Paul d'un concert en interieur."
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/Ali-morshedlou-professional-photographer-businessman.jpg"
+            src="./assets/images/gallery/entreprise/Ali-morshedlou-professional-photographer-businessman.avif"
             alt="Photo professionnel de Ali Morshedlou d'un homme d'affaire accompli, souriant et fier."
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/Jason-goodman-professional-photographer-meeting.jpg"
+            src="./assets/images/gallery/entreprise/Jason-goodman-professional-photographer-meeting.avif"
             alt="Photo professionnel de Jason Goodman d'une femme qui rigole avec ses collegues de bureau."
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/Hannah-busing-photographer-wedding-hands-ring.jpg"
-            alt="Photo professionnel de Hannah Busing des mains d'un homme et d'une femme marié avec des alliances au doigt."
+            src="./assets/images/gallery/mariage/Hannah-busing-photographer-wedding-hands-ring.avif"
+            alt="Photo professionnel de Hannah Busing mains d'un homme qui accueil celles d'une femme"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/Ade-tunji-professional-portrait-photographer-black-american-sun.jpg"
-            alt="Photo professionnel de Ade Tunji d'un homme noir americain fermant les yeux car éblouit par le soleil."
+            src="./assets/images/gallery/portraits/Ade-tunji-professional-portrait-photographer-black-american-sun.avif"
+            alt="Photo professionnel de Ade Tunji homme noir eblouit par le soleil"
           />
           <img
             data-gallery-tag="Mariages"
             class="gallery-item"
-            src="./assets/images/gallery/mariage/Jakob-owens-professional-photographer-wedding-tropical-honeymoon.jpg"
+            src="./assets/images/gallery/mariage/Jakob-owens-professional-photographer-wedding-tropical-honeymoon.avif"
             alt="Photo professionnel de Jakob Owens d'un couple a peine marié dans un endroit tropîcal"
           />
           <img
             data-gallery-tag="Portrait"
             class="gallery-item"
-            src="./assets/images/gallery/portraits/Nino-van-prattenburg-professionnal-portrait-photographer-young-girl-model-glasses.jpg"
+            src="./assets/images/gallery/portraits/Nino-van-prattenburg-professionnal-portrait-photographer-young-girl-model-glasses.avif"
             alt="Photo professionnel de Nino Van Prattenburg du portrait d'une jeune fille mannequin a lunette."
           />
           <img
             data-gallery-tag="Concert"
             class="gallery-item"
-            src="./assets/images/gallery/concerts/Austin-neill-professional-photographer-concert-singer-artifice.jpg"
-            alt="Photo professionnel de Austin Neill d'un chanteur qui leve sa main gauche en faisant le numero 4 et qui a des effets d'artifice derriere lui."
+            src="./assets/images/gallery/concerts/Austin-neill-professional-photographer-concert-singer-artifice.avif"
+            alt="Photo professionnel de Austin Neill chanteur qui fait le numero 4 avec sa main levé"
           />
           <img
             data-gallery-tag="Entreprises"
             class="gallery-item"
-            src="./assets/images/gallery/entreprise/Mateus-campos-professional-photographer-cheerful-worker-girl.jpg"
-            alt="Photo professionnel de Mateus Campos d'une jeune femme pleine de joie devant son ordinateur a son bureau."
+            src="./assets/images/gallery/entreprise/Mateus-campos-professional-photographer-cheerful-worker-girl.avif"
+            alt="Photo professionnel de Mateus Campos d'une jeune femme pleine de joie a son bureau"
           />
         </div>
       </div>
@@ -220,8 +256,8 @@
           <figcaption class="quote__author">- Richard Avedon</figcaption>
         </figure>
       </div>
-    </div>
-    <div id="services">
+    </section>
+    <section id="services">
       <h3 class="title">Mes services</h3>
       <div class="container">
         <div class="service">
@@ -265,7 +301,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </section>
     <div class="quote">
       <figure>
         <blockquote>
@@ -278,14 +314,14 @@
         <figcaption class="quote__author">- Richard Avedon</figcaption>
       </figure>
     </div>
-    <div id="contact">
+    <section id="contact">
       <div class="container">
         <div class="form-container">
           <h3>Une question ? Une demande de devis ?</h3>
           <p>
             N’hésitez pas à m’écrire ! Je vous répondrais en moins de 24 heures
           </p>
-          <form action="" method="post">
+          <form action="#" method="post">
             <label for="nom">Nom</label>
             <input type="text" name="nom" id="nom" />
             <label for="email">Email</label>
@@ -302,11 +338,11 @@
         </div>
         <div class="picture right">
           <img
-            src="./assets/images/Camera-photo.png"
+            src="./assets/images/Camera-photo.avif"
             alt="Image d'une camera"
           />
         </div>
       </div>
-    </div>
+    </section>
   </body>
 </html>
