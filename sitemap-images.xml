@@ -23,7 +23,7 @@
     <image:image>
       <image:loc>http://127.0.0.1:5500/assets/images/slider/Nicholas-green-professional-photo-concert.avif</image:loc>
       <image:title>Photo de Nicholas Green</image:title>
-      <image:caption>Photo professionnel de Nicholas Green homme & femme pris en photo en concert</image:caption>
+      <image:caption>Photo professionnel de Nicholas Green homme et femme pris en photo en concert</image:caption>
     </image:image>
     <image:image>
       <image:loc>http://127.0.0.1:5500/assets/images/slider/Edward-cisneros-professional-photo-wedding.avif</image:loc>
