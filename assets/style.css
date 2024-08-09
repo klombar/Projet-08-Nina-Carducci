@@ -353,5 +353,15 @@ input[type="submit"] {
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon{
-
+  background-color: black;
+  border-radius: 50%;
+  border: 1px solid white;
+  width: 25px;
+  height: 25px;
 }
+
+.carousel-indicators [data-bs-target]{
+  height: 4px;
+  border: 1px solid black;
+}
+
