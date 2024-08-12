@@ -76,7 +76,7 @@ body {
 }
 .about-me__title {
 	margin-top: 1em;
-	margin-bottom: 60px;
+	margin-bottom: 30px;
 	font-size: 30px;
 }
 .about-me__introduction {
@@ -351,3 +351,8 @@ input[type="submit"] {
 	}
 }
 
+.carousel-control-prev-icon,
+.carousel-control-next-icon{
+  background-color: black;
+  opacity: 1;
+}
