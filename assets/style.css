@@ -90,9 +90,6 @@ body {
 	font-size: 14px;
 }
 
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -102,7 +99,7 @@ body {
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
 	color: #fff;
-	background-color: #BEB45A;
+	background-color: black;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
@@ -356,7 +353,7 @@ input[type="submit"] {
 
 .fa-chevron-left,.fa-chevron-right{
 	background-color:#e5975f;
-	font-size:30px;
+	font-size:45px;
 	border-radius:15px;
-	padding:2px
+	padding:2px;
 }
