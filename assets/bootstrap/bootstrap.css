@@ -6126,7 +6126,7 @@ textarea.form-control-lg {
   box-sizing: content-box;
   flex: 0 1 auto;
   width: 30px;
-  height: 3px;
+  height: 5px;
   padding: 0;
   margin-right: 3px;
   margin-left: 3px;
@@ -6147,6 +6147,7 @@ textarea.form-control-lg {
 }
 .carousel-indicators .active {
   opacity: 1;
+  background-color: #e5975f;
 }
 
 .carousel-caption {
