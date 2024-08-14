@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
 
   <!-- Image du logo Instagram -->
@@ -14,7 +13,7 @@
 
   <!-- Images du carrousel -->
   <url>
-    <loc>https://klombar.github.io/Projet-08-Nina-Carducci//#carousel</loc>
+    <loc>https://klombar.github.io/Projet-08-Nina-Carducci/#carousel</loc>
     <image:image>
       <image:loc>https://klombar.github.io/Projet-08-Nina-Carducci/assets/images/slider/Ryoji-iwata-professional-photo-street-urban.webp</image:loc>
       <image:title>Photo de Ryoji Iwata</image:title>
