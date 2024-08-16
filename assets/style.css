@@ -29,13 +29,20 @@ body {
 	margin-bottom: 0;
 }
 
-.nav li {
-	padding-inline: 10px;
+.nav .nav-header,
+.nav .social-link {
+	padding: 8px 10px;
 }
 
 .nav a {
 	text-decoration: none;
 	color: #000
+}
+
+.nav .nav-header:hover,
+.nav .social-link:hover{
+	background-color: #BEB45A;
+	border-radius: 5px;
 }
 
 .social-link img {
@@ -101,12 +108,13 @@ body {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: black;
-	border-radius:0 ;
+	color: black;
+	background-color: #BEB45A;
+	border-radius:5px ;
 }
 .nav-pills .nav-link {
-	color: #000
+	color: #000;
+	cursor: pointer;
 }
 .item-column {
 	position: relative;
