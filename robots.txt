@@ -5,4 +5,4 @@ Allow: /public/
 Allow: /blog/
 
 
-Sitemap: http://127.0.0.1:5500/sitemap-images.xml
+Sitemap: https://klombar.github.io/Projet-08-Nina-Carducci/sitemap-images.xml
