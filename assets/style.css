@@ -368,3 +368,8 @@ input[type="submit"] {
 	border-radius:15px;
 	padding:2px;
 }
+
+.visually-hidden{
+	color: black;
+}
+
